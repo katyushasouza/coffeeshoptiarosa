@@ -1,0 +1,23 @@
+.tabela{
+  border: 1px solid black;
+  font: 12px verdana;
+}
+.cabecalho{
+  background: beige;
+  color: brown;
+}
+.titulo{
+  padding: 2px;
+  text-align: left;
+}
+.coluna_valor{
+  padding: 2px;
+  text-align: right;
+}
+.coluna_geral{
+  padding: 2px;
+  text-align: left;
+}
+.zebra tr:nth-child)odd){
+  background: lightbrown;
+}

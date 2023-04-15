@@ -1,2 +1,2 @@
-# coffeeshoptiarosa
-trabalho da atividade ativida da disciplina de frontend do curso ADS IESB - abril 2023
+# coffeeshopp
+Atividade Ativa da disciplina Construção de Frontendo do curso de ADS-EAD do IESB
