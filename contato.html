@@ -3,6 +3,7 @@
     <body>
         <head>
             <title> Coffee Shopp Tia Rosa</title>
+            <link href="estilo.css" rel="stylesheet">
             </head>
           <body>
               <header title="Coffe Shopp Tia Rosa"></header>
@@ -11,29 +12,44 @@
               
                 <h2 align="center"> Contato </h2>
 	
-	<br>
-	<br>
+<br>
         <p align="left">
                 <a href="index.html"><button>voltar</button></a>
         </p>
-        <br>
+<br> 
                 
 <!--Criar formulário-->
-              
-<form action="" method="get">
-    <label for="GET-name">Nome:</label>
-    <input id="GET-name" type="text" name="nome"><br>
-    <label for="GET=E-mail">Email:</label>
-    <input id="GET-name" type="text" name="e-mail"><br>
-    <label for="GET-name">Mensagem:</label>
-    <input id="GET-name" type="text" name="mensagem" width="300"><br>
+<form name="contato-TiaRosa" action="mailto:coffeeshoptiarosa@email.com" method="get">
+    <table>
+        <tr>
+            <td>Nome:</td>
+            <td><input id="GET-name" type="text" name="Nome"><br></td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input id="GET-mail" type="email" name="Email"><br></td>
+        </tr>
+        <tr>
+            <td>Mensagem:</td>
+            <td><textarea name="Mensagem" rows="5" cols="22"></textarea></td>
+        </tr>
+        <tr>
+            <td>Aguardo retorno:</td>
+            <td>
+                <select name="retorno"> 
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </td>
+        </tr>
+    </table>
 </form>
-    <select name="retorno"> 
-        <option value="sim">Aguardo retorno</option>
-        <option value="nao">Não precisa responder</option>
-    </select>
-    <br>
-    <button>Enviar</button> <button>Limpar</button>
+<br>
+    <button Submit>Enviar</button><button reset>Limpar</button>
+
+ 
+    </body>
+</html>
               
     </body>
 </html>
